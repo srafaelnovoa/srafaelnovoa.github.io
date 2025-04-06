@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import ProjectCard from "../components/ProjectCard";
+import { Link } from "react-router-dom";
 
 export default function Projects() {
   const [projects, setProjects] = useState([]);
@@ -21,6 +22,10 @@ export default function Projects() {
       ) : (
         <p className="text-gray-400">Loading projects...</p>
       )}
+
+      <Link to="/changelog" className="text-blue-400 hover:underline">
+        View my changelog
+      </Link>
     </div>
   );
 }
