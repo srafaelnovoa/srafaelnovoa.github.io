@@ -1,0 +1,18 @@
+[
+    {
+      "title": "Peloton Ride Metrics Viewer",
+      "tech": ["React", "Bootstrap", "Chart.js", "Node.js", "Express"],
+      "repo": "https://github.com/srafaelnovoa/peloton-api-visualizer",
+      "demo": "https://srafaelnovoa.github.io/peloton-api-visualizer/",
+      "screenshot": "/images/peloton-api-visualizer.png",
+      "description": "A dashboard that fetches Peloton ride data using a middleware API hosted on Render. It visualizes speed, cadence, and heart rate over time with Chart.js. Built to practice third-party auth and API integrations."
+    },
+    {
+      "title": "React Mini Game",
+      "tech": ["React", "Bootstrap"],
+      "repo": "https://github.com/srafaelnovoa/byte-size-pets",
+      "demo": "https://srafaelnovoa.github.io/byte-size-pets/",
+      "screenshot": "/images/byte-size-pets.png",
+      "description": "This project explores game logic in React, highlighting how React hooks simplify state management and enhance user interactivity, making it ideal for learning in a relaxed, non-work setting."
+    }
+  ]
