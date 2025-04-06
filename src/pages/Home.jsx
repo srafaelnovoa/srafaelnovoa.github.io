@@ -1,4 +1,4 @@
-// Home.jsx
+import { Link } from "react-router-dom";
 export default function Home() {
   return (
     <div className="p-6 text-gray-200">
@@ -19,9 +19,9 @@ export default function Home() {
           Datatables, Express, SQL
         </p>
       </div>
-      <a href="/projects" className="text-blue-400 hover:underline">
+      <Link to="/projects" className="text-blue-400 hover:underline">
         Explore my work →
-      </a>
+      </Link>
     </div>
   );
 }
