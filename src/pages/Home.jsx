@@ -1,10 +1,16 @@
 import { Link } from "react-router-dom";
 export default function Home() {
   return (
-    <div className="p-6 text-gray-200">
-      <h1 className="text-3xl font-bold mb-2">Hey, I’m S. Rafael Novoa</h1>
+    <div className="p-6 text-gray-200 flex flex-col">
+      <img
+        src="images/profile.JPG"
+        alt="S. Rafael Novoa"
+        className="w-32 h-32 mb-4 shadow-lg"
+      />
+
+      <h1 className="text-3xl font-bold mb-2">S. Rafael Novoa</h1>
       <p className="mb-4 text-lg">
-        A software engineer who builds internal tools, dashboards, and
+        a software engineer who builds internal tools, dashboards, and
         integration systems.
       </p>
       <p className="mb-6">
@@ -18,6 +24,16 @@ export default function Home() {
           JavaScript, React, Node.js, TailwindCSS, jQuery, Bootstrap,
           Datatables, Express, SQL
         </p>
+      </div>
+      <div className="mb-6">
+        <a
+          href="https://www.linkedin.com/in/srafaelnovoa/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-400 hover:underline"
+        >
+          💼 Connect on LinkedIn
+        </a>
       </div>
       <Link to="/projects" className="text-blue-400 hover:underline">
         Explore my work →

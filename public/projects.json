@@ -1,6 +1,6 @@
 [
     {
-      "title": "Peloton Ride Metrics Viewer",
+      "title": "RideData Viewer",
       "tech": ["React", "Bootstrap", "Chart.js", "Node.js", "Express"],
       "repo": "https://github.com/srafaelnovoa/peloton-api-visualizer",
       "demo": "https://srafaelnovoa.github.io/peloton-api-visualizer/",
