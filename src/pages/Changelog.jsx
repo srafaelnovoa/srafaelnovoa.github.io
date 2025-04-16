@@ -1,6 +1,6 @@
 export default function Changelog() {
   return (
-    <div className="p-6 text-gray-200">
+    <div className="p-6 dark:text-gray-200">
       <h1 className="text-3xl font-bold mb-4">Changelog</h1>
       <ul className="list-disc list-inside">
         <li>

@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 export default function Home() {
   return (
-    <div className="p-6 text-gray-200 flex flex-col">
+    <div className="p-6 dark:text-gray-200 flex flex-col">
       <img
         src="images/profile.JPG"
         alt="S. Rafael Novoa"

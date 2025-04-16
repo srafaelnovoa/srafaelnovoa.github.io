@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <div className="p-6 text-gray-200">
+    <div className="p-6 dark:text-gray-200">
       <h1 className="text-3xl font-bold mb-4">About Me</h1>
       <p className="mb-4">
         I’m currently a Lead Software Engineer at QuidelOrtho, working on

@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <div className="p-6 text-gray-200">
+    <div className="p-6 dark:text-gray-200">
       <h1 className="text-3xl font-bold mb-4">Let’s Connect</h1>
       <p className="mb-2">
         I’m not actively seeking new roles, but I’m always open to connect or
